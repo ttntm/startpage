@@ -59,4 +59,4 @@ All CSS can be found in `./src/_includes/css.njk` and will be inlined into the g
 
 ## Feedback
 
-Please use discussions for that, thanks!
+Please use [GitHub discussions](https://github.com/ttntm/startpage/discussions) for that, thanks!
