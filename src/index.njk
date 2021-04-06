@@ -1,0 +1,15 @@
+---
+layout: site.njk
+---
+<section class="grid">
+  {% for category in categories %}
+    <div class="grid-item">
+      <h1 class="h4">{{ category.name }}</h1>
+      {% for item in links | sort(attribute = 'name') %}
+        {% if item.category === category.name %}
+          <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+</section>
