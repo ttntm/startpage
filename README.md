@@ -15,7 +15,7 @@
 3. Run `npm install`
 4. `npm run serve` to get a local development server @ `localhost:8080`
 
-When you're satisfied, use `npm run build` to build your start page into `./public/index.html`. This file can then be set as start page and/or custom "New Tab" page in your browser (see: [New Tab Changer](https://chrome.google.com/webstore/detail/new-tab-changer/occbjkhimchkolibngmcefpjlbknggfh/) for example).
+When you're satisfied, use `npm run build` to build your start page into `./public/index.html`. This file can then be set as start page and/or custom "New Tab" page in your browser (see: [New Tab Changer (Chromium)](https://chrome.google.com/webstore/detail/new-tab-changer/occbjkhimchkolibngmcefpjlbknggfh/) or [New Tab Override (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/) for example).
 
 ### Customize Categories
 
