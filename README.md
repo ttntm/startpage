@@ -29,7 +29,7 @@ Links can be edited in `./src/_data/links.json`. They are defined as follows:
 
 ```json
 {
-  "category": "CategorName",
+  "category": "CategoryName",
   "name": "LinkName",
   "url": "LinkURL"
 }
