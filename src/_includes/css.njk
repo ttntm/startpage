@@ -1,3 +1,4 @@
+
 :root {
   --dark:#4C566A;
   --darker:#3B4252;
@@ -83,7 +84,9 @@ html {
 }
 
 body {
-  background: linear-gradient(to bottom, #4568dc, #b06ab3);
+  background: linear-gradient(to bottom right, hsl(220, 35%, 30%), hsl(250, 35%, 40%), hsl(280, 35%, 30%));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--dark);
   font-family: var(--font-mono);
   font-size: 1rem;
@@ -107,14 +110,14 @@ h5, .h5 {font-size: 1.15rem;}
 h6, .h6 {font-size: 1rem;}
 
 a, a:active {
-  color: purple;
+  color: slateblue;
   letter-spacing: 0.05em;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: navy;
-  text-decoration: underline;
+  color: var(--light);
+  text-decoration: none;
 }
 
 main {
@@ -145,16 +148,16 @@ main {
 
 .grid-item {
   backdrop-filter: blur( 4px );
-  background: rgba( 255, 255, 255, 0.25 );
+  background: rgba(25, 25, 25, 0.5);
   border: 1px solid transparent;
   border-radius: 0.75rem;
-  box-shadow: 0 2px 16px 0 rgba( 31, 38, 135, 0.37 );
+  box-shadow: 0 2px 16px 0 rgba(31, 38, 135, 0.37);
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
 }
 
 .grid-item:hover {
-  background: rgba( 255, 255, 255, 0.15 );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(200, 200, 200, 0.25);
+  box-shadow: 0 2px 4px 0 rgba(31, 38, 135, 0.37);
 }
