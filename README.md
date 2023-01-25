@@ -1,4 +1,4 @@
-![](./startpage.jpg)
+![](./startpage.png)
 
 <h2 align='center'>startpage</h2>
 
